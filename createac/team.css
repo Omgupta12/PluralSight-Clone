@@ -1,0 +1,81 @@
+#container1{
+    background-color: #181818;
+   
+margin: 0px -8px;
+}
+#content1{
+    margin:5% auto;
+    background-color: #181818;
+
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 800px;
+}
+#content1>div{
+    padding: 40px ;
+   
+}
+#content1>div>div>h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+#content1>div>div:first-child{
+    border-bottom: 0.1px solid #7d8181;    
+}
+#content1>div>p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+#content1>div>p>i{
+    color: #bb8015;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.amount1{
+color: white;
+font-family: sans-serif;
+font-size: 60px;
+}
+.duration1{
+color: white;
+font-family: sans-serif;
+font-size: 22px;
+
+}
+.lastlinediv1>p{
+display: inline;
+color: white;
+}
+.lastlinediv1{
+margin-top: -40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.lastline2spa,.lastline1spa{
+text-decoration:line-through ;}
+.btndown1{
+border: none;
+padding: 8px 30px;
+width: 250PX;
+display: block;
+margin: auto;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 800;
+color: white;
+}
+.freetrial1{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.freetrial1>p{
+display: inline;
+color: white;
+font-family: sans-serif;
+}

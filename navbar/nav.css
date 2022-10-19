@@ -1,0 +1,150 @@
+  /* navbar */
+  #navbar{
+    height: 100px;
+    /* width: 101.05%; */
+    background-color: #212121;
+  margin: 0px -8px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgb(5, 7, 10) 0px 20px 30px -10px;
+  
+}
+/* left side bar */
+#leftbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    gap: 20px;
+}
+#leftdata{
+    display: flex;
+    color: white;
+    gap: 30px;
+}
+#logoimg{
+    height: 50px;
+    width: 200px;
+}
+/* 
+drop down section */
+.dropdown{
+    position: relative;
+    
+}
+.dropdown-menu{
+    /* display: none; */
+    display: flex;
+    position: absolute;
+    margin-top: 38px;
+    background-color: #121212;
+    padding: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out,transform 150ms ease-in-out
+}
+.dropdown > .link:focus + .dropdown-menu{
+opacity: 1;
+
+transform: translateY(0px);
+}
+.dropdown > .link:focus + .dropdown{
+    border-bottom: 2px solid red;
+}
+.link{
+    cursor: pointer;
+    text-decoration: none;
+    background-color:#212121;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    font-family: sans-serif;
+}
+
+/* dropdown box data */
+.para{
+    font-size: 17px;
+    font-weight: 800;
+    margin-left: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.para1{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: sans-serif; 
+    cursor: pointer;
+}
+.paraimg{
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+.parabox{
+    display: flex;
+    align-items: center;
+   
+}
+.paratop{font-size: 12px;font-weight: 700;font-family: sans-serif;color: #acafaf;}
+
+.dropdown-menu1{
+    border-right: 1px  solid #acafaf;
+    padding-right: 60px;
+}
+.dropdown-menu2{
+    margin-left: 40px;
+    border-bottom: 1px  solid #acafaf;
+    display: flex;
+    padding-bottom: 50px;
+}
+.pa{
+    margin-top: 30px;
+}
+#coursedata{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  margin-top: 30px;
+ 
+
+}
+.cus>p,.cus{
+    cursor: pointer;
+}
+.coursedata{
+    cursor: pointer;
+  width: 280px;
+  height: 65px;
+  background-color: #222222;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+ cursor: pointer;
+}
+.coursedata img{
+width: 45px;
+height: 45px;cursor: pointer;
+}
+.coursedatalogo{
+display: grid;align-items: center;cursor: pointer;
+}
+.span{
+  font-size: 11px;
+  color: #acafaf;
+}
+.paradown{
+  margin: 20px 620px 0px 40px;
+  border-right: 1px solid #acafaf;
+}
+.paraskills,.paraflow{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+.dropdown i{
+  margin-left: 10px;
+  font-size: 15px;
+  margin-top: 5px;
+}

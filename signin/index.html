@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in | Pluralsight</title>
+    <link rel="icon" href="https://w7.pngwing.com/pngs/560/589/png-transparent-farmington-amazon-com-pluralsight-technology-learning-technology-electronics-text-trademark-thumbnail.png" type="image/icon type">
+    
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #parent{
+            width: 100%;
+            height: 760px;
+            margin-bottom: -10px;
+            /* border: 1px solid blue; */
+            display: flex;
+            margin: auto;
+            align-items:center;
+        }
+        #leftChild{
+            width: 40%;
+            height: 99%;
+            border: 1px solid black;
+            background-color: #212121;
+        }
+        #leftChild>div{
+            width: 50%;
+            height: 60px;
+            /* border: 1px solid red; */
+            margin: auto;
+            margin-top: 55px;
+        }
+        #leftChild>div>img{
+            width: 85%;
+            height: 90%;
+            display: block;
+            margin: auto;
+        }
+        #leftChild>div>div:nth-child(2){
+            width: 120%;
+            height:470px;
+            /* border: 1px solid rgb(196, 51, 51); */
+            margin-top: 50px;
+            margin-left: -35px;
+        }
+        #leftChild>div>div>p{
+            color: white;
+            font-size: 18px;
+            margin-bottom: 3px;
+            font-family: sans-serif;
+            margin-top: 40px;
+        }
+        #leftChild>div>div>input{
+            width: 94%;
+            height: 38px;
+            border: 1px solid grey;
+            background-color: #212121;
+            color: white;
+            padding: 0px 10px;
+            margin-top: 10px;
+        }
+        #leftChild>div>div>button{
+            margin-top: 20px;
+            margin-left: 3px;
+            width: 99%;
+            height: 8.5%;
+            background-color: rgb(16, 102, 173);
+            border-radius: 3px;
+            color: white;
+            border: 0px;
+            font-family: sans-serif;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        #leftChild>div>div>button:hover{
+            cursor: pointer;
+            background-color: rgb(41, 115, 175);
+        }
+        #forgorSign{
+            height: 45px;
+            margin-top: 50px;
+            text-align: center;
+            color: rgb(46, 144, 224);
+            /* border: 1px solid rgb(138, 138, 138); */
+            border-bottom: 1px solid grey;
+        }
+        #forgorSign>p>a{
+            color: rgb(46, 144, 224);
+            text-decoration: none;
+            
+        }
+        #forgorSign>p>a:hover{
+            color: rgb(99, 170, 228);
+            border-bottom: 1px  solid rgb(99, 170, 228);
+        }
+        #leftChild>div>div>button:last-child{
+            color: white;
+            background-color: rgb(54, 50, 50);
+        }
+        #leftChild>div>div>button:last-child:hover{
+            background-color: rgb(59, 56, 56);
+        }
+        /* #copyrights{
+            height: 50px;
+            width: 120%;
+            border: 1px solid red;
+            margin-left: -35px;
+        } */
+        #copyrights>p{
+            font-size: 55px;
+        }
+        #rightChild{
+            width: 60%;
+            height: 99%;
+            background-image: url("https://cdn.pixabay.com/photo/2017/07/09/19/49/wallpaper-2487960_960_720.jpg");
+            background-size: 100%;
+            /* border: 1px solid red; */
+        }
+        #rightChild{
+            background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/login/bg-gtm-2020.png);
+            background-color: #000000;
+        }
+        #rightChild>div>img{
+            width: 55%;
+            height: 230px;
+            display: block;
+            margin: auto;
+            margin-top: 120px;
+            margin-left: 100px;
+        }
+        #rightChild>div>button{
+            padding: 13px 90px;
+            display: block;
+            margin-top: 35px;
+            margin-left: 110px;
+            margin-bottom: 100px;
+            color: white;
+            background-image: linear-gradient(59deg, #dd6579 38%, #da3e17 78%);;
+            border: 0px;
+            cursor: pointer;
+        }
+        #rightChild>div>button+img{
+            height: 40px;
+            width: 150px;
+            margin-bottom: -100px;
+            margin-left: 700px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="parent">
+        <div id="leftChild">
+            <div>
+                <img src="https://app.pluralsight.com/id/img/login-logo.png" alt="Pluralsight Logo">
+
+                <div>
+                        <p>Email or Username</p>
+                        <input type="text">
+                        <p>Password</p>
+                        <input type="text">
+                        <button>Sign in</button>
+
+                        <div id="forgorSign">
+                            <p><a href="">Forgot Password</a></p>
+                            <p><a href="">Sign in with company or school</a></p>
+                        </div>
+                        <button><a href="/pricing/pricing.html" style="text-decoration: none;color:white">Create an account</a></button>
+                    </div>
+                    <div id="copyrights">
+                        <p class="copyPara">Copyright © 2004 - 2022 Pluralsight LLC. All rights reserved. </p>
+                    </div>
+            </div>
+            
+        </div>
+
+
+        <div id="rightChild">
+
+            <div>
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/login/login-h1.png" alt="Build The Skills You Need To deliver result">
+                <button>Try for free</button>
+                <img src="https://www.pluralsight.com/content/dam/pluralsight2/logos/logo-build-better.png" alt="Build Better Logo">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

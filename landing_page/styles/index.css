@@ -1,0 +1,480 @@
+h3,
+h1,
+h2,
+h4,
+span,h5,h6 {
+    color: white;
+    font-family: 'PS Commons ';
+    /* font-weight: normal !important; */
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    /* border: 1px solid red; */
+}
+p{
+    font-size: 15px;
+    line-height: 1.5;
+ font-family:sans-serif;
+ font-weight: normal !important;
+ letter-spacing: 1px;
+}
+
+#home_bdy {
+    width: 1510px;
+    height: 765px;
+    background-image: url("/landing page/images/Mobile-Background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/* @media screen and (min-width:380px) and  (max-width:720px) {
+ 
+    #home_33_off {
+        background-color: #181818;
+        /* display: block; */
+       /* margin-left: -50%; */
+
+    /* }
+} */ 
+
+body {
+    background-color: black;
+    color: white;
+    width: fit-content;
+}
+
+#home_33_off {
+  
+    height: 500px;
+    margin-top: -60%;
+    max-width: 55%;
+    margin-left: 30%;
+    display: inline-block;
+    vertical-align: middle;
+     cursor: pointer;
+}
+
+#home_div {
+    border: 1px solid red;
+    margin-left: 60%;
+    /* background-color: #000; */
+    margin: 0px auto;
+    width: 0%;
+    height: 150px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #EC008C, #F15B2A, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+#home_img_div {
+    height: 150px;
+    width: 101%;
+    /* border: 1px solid red; */
+    margin-top: -150px;
+    margin-left: px;
+    background-color: black;
+}
+#home_popular_box_text{
+    /* border: 1px solid red; */
+    margin-left: 16%;
+  
+}
+
+#home_popular_box {
+    /* border: 1px solid red; */
+    height: 600px;
+    width: 100%;
+    margin-bottom: 10%;
+    /* margin-left: 20px; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right.png");
+    background-position: top right;
+    /* background-image: url("	https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-left.png");
+    background-position:  top,right; */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#home_popular_div {
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-left: 16%;
+}
+
+#home_popular_js,
+#home_popular_py,
+#home_popular_c,
+#home_popular_an {
+    /* border: 1px solid teal; */
+    border-radius: 10px;
+    height: 200px;
+    width: 40%;
+    background-color: #222222;
+}
+
+#home_popular_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#home_popular_text
+{
+    /* border: 1px solid red; */
+    width:50%;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+#home_prep,
+#home_skill {
+    /* display: inline-block;
+    vertical-align: middle; */
+    display: flex;
+    gap: 2%;
+    /* border: 1px solid red; */
+
+}
+#home_latest_text{
+    /* border: 1px solid teal; */
+    padding: 20px;
+}
+
+#home_skills_box_img {
+    display: flex;
+    /* border: 1px solid greenyellow; */
+
+    /* border: 1px solid red; */
+}
+#home_middle_part {
+    /* border: 1px solid blue; */
+    background-color: #181818;
+    height: 1500px;
+    margin-bottom: 5%;
+  
+
+    
+}
+#home_latest_div1{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+.home_latest_div {
+    display: flex;
+    /* border: 1px solid white; */
+    margin-bottom: 5%;
+ padding: 1%;
+}
+
+#home_certification_div,
+#home_delivery_div,
+#home_sandboxes_div {
+    /* border: 1px solid red; */
+    width: 32%;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #222222;
+    padding: 40px;
+}
+
+#home_prep_module_sand_main_div {
+    display: flex;
+    gap: 2%;
+    /* justify-content: space-around; */
+    /* margin-top: 10px; */
+padding: 10px;
+    /* border: 1px solid blue; */
+    /* margin-bottom: 10%; */
+
+}
+
+#home_discover_text{
+    /* border: 1px solid blue;  */
+    padding: 10px;
+}
+
+
+#home_discover_div {
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    gap: 2%;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 5%;
+
+    /* border: 1px solid blue;  */
+}
+#home_discover_img{
+       /* border: 1px solid blue;  */
+       height: 200px;
+    width: 350px;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
+
+#home_my_plural_div {
+    display: flex;
+    justify-content: end;
+    /* border: 1px solid aqua; */
+     /* border: 1px solid red;   */
+     margin-bottom: 10%;
+}
+
+#home_my_plural_div1 {
+/* background-color: #000; */
+background-image: url("https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/targeted_section/targeted-parsys-customer-types-1/generic_block/parsys/columns/column-parsys-1/generic_block/image-res.img.eda54712-d00b-4274-9506-7e06a0a9c4c1.png");
+    height: 645px;
+    width: 100%;
+    background-color:black;
+    background-position: top left;
+    /* border: 1px solid yellow; */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: transparent;
+    /* position: absolute; */
+}
+
+#home_my_plural_div2 {
+    /* border: 1px solid red; */
+    height: 645px;
+    width: 45%;
+    background-color: #189db3;
+    padding: 60px;
+    box-sizing: border-box;
+
+}
+#home_my_plural_btn{
+padding: 18px;
+font-size: 18px;
+font-weight: bold;
+color: white;
+background-color: #000;
+cursor: pointer;
+}
+#home_followus_boxes {
+
+ /* border: 1px solid white; */
+    height: 300px;
+    /* background-color: aqua;  */
+    margin-top: 150px;
+
+
+
+}
+
+#home_followus_div{
+    /* border: 1px solid red; */
+    height: 800px;
+}
+
+#home_followus_text{
+    /* border: 1px solid red; */
+   text-align: center;
+   margin-top: -20px;
+   margin-bottom: -8%;
+}
+.mySlides1,
+.mySlides2 {
+  
+    display: flex;
+    gap: 1%;
+padding: 60px;
+
+    /* border: 1px solid red; */
+    /* margin-left: 3.5%; */
+
+
+
+}
+
+#btn {
+    display: flex;
+    justify-content: space-between;
+/* background-color: transparent; */
+
+}
+#i_btn{
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+ }
+
+#btn1,
+#btn2 {
+
+    height: 70px;
+    width: 50px;
+    padding: 10px;
+    margin-top: -140px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#home_martin_name,#home_william_name,#home_judy_name,#home_skyler_name,#home_javier_name{
+    cursor: pointer;
+
+}
+#home_martin_name:hover,#home_william_name:hover,#home_judy_name:hover,#home_skyler_name:hover,#home_javier_name:hover{
+    color: #1da1f2;
+}
+
+#home_martin_div,
+#home_william_div,
+#home_judy_div,
+#home_skyler_div,
+#home_javier_div {
+
+    background-color: white;
+    /* border: 1px solid green; */
+    width: 450px;
+    margin-left: 5px;
+    color: black;
+    gap: 10%;
+    border-radius: 5px;
+
+    /* display: inline-block; */
+    height: 280px;
+
+
+}
+
+/* #home_martin_div{
+    margin-top: -50%;
+} */
+
+#home_martin_div > #home_followus_logo {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 8%;
+   margin-top:28%;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+#home_william_div > #home_followus_logo {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 8%;
+   margin-top:13%;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+#home_judy_div > #home_followus_logo {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 8%;
+   margin-top:8%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#home_skyler_div > #home_followus_logo {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 8%;
+   margin-top:20%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#home_javier_div > #home_followus_logo {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 8%;
+   margin-top:20%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#home_martin_fist_div,
+#home_javier_fist_div,
+#home_skyler_fist_div,
+#home_judy_fist_div,
+#home_william_fist_div {
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 200px;
+    gap: 5%;
+    cursor: pointer;
+
+}
+
+#home_martin_div1,
+#home_william_div1,
+#home_judy_div1,
+#home_skyler_div1,
+#home_javier_div1 {
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 45%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+       /* cursor: pointer; */
+}
+
+#home_martin_text,
+#home_william_text,
+#home_judy_text,
+#home_skyler_text,
+#home_javier_text {
+    /* border: 1px solid sienna; */
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+#home_pluralsight_one_div {
+    background-image: url("https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_1609496607/image-res.img.8377a1d0-97d6-4d21-b150-b57af534a17c.jpg");
+    height: 650px;
+    width:97%;
+    background-position: right center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid sienna;  */
+    margin-top: -5%;
+    padding: 20px;
+}
+
+#home_for_nonprofits_btn {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px;
+    width: 220px;
+    cursor: pointer;
+}
+
+#home_insight_div {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    padding: 10px;
+    /* border: 1px solid white; */
+    padding: 30px;
+    background-color: #181818;
+}
+
+#home_try_free_btn {
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 280px;
+    color: white;
+    /* border: 1px solid white; */
+    cursor: pointer;
+    /* margin-left: 50%; */
+    background-image: linear-gradient(to right, #f05a28, #ec008c, #f05a28);
+}
+
+#home_try_free_btn_div {
+    margin-right: 10%;
+    margin-top: 50px;
+   
+}
