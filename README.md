@@ -91,11 +91,12 @@ GitHub Desktop & GitHub Browser for code collaboration.
 Slack, WhatsApp and Zoom for communication.
 
 ### Our Team Members:-
+OM PRAKASH GUPTA
 MICHEAL GEORGE
 AYUSH KUMAR
 VAMSI KRISHNA
 JOGI SAIKIRAN
-OM PRAKASH GUPTA
+
 
 ### Learnings -
 We all became proficient in reading the code of team members.
@@ -110,13 +111,12 @@ Source Code:- https://dulcet-brigadeiros-75a972.netlify.app/
 (Our Netlify Link)
 
 ### Roles & Responsibilities :-
-* GitHub is Managed Micheal
-* The Landing Page are designed & functioned by Om
-* Navbar and footer are designed & functioned by Micheal.
-* Sign-in page and plan & Pricing page were designed & functioned by Saikiran
+* The Landing Page are designed & functioned by OM PRAKASH GUPTA.
+* Navbar and footer are designed & functioned by OM PRAKASH GUPTA.
+* Sign-in page and plan & Pricing page were designed & functioned by Saikiran.
 * The skillsand Flow page was designed& functioned by Micheal.
-* The paymentpage is designed & functioned by Vamsi
-* The productspage and Popular topic page are designed & functioned by Ayush
+* The paymentpage is designed & functioned by Vamsi.
+* The productspage and Popular topic page are designed & functioned by Ayush.
 
 
 
